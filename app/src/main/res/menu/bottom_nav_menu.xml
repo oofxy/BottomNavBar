@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navBangunDatar"
+        android:title="Bangun Datar"
+        android:icon="@drawable/baseline_calculate_24"/>
+    <item
+        android:id="@+id/navBangunRuang"
+        android:title="Bangun Ruang"
+        android:icon="@drawable/baseline_grid_on_24"/>
+    <item
+        android:id="@+id/navProfile"
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
+</menu>
