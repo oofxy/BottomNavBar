@@ -64,15 +64,19 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnBackCircle"
+            android:background="@drawable/button_exit"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_marginLeft="10dp"
-            android:layout_marginBottom="3dp"
-            android:layout_width="100dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:backgroundTint="#AF4444"
-            android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:text="Back"/>
+            android:text="X"/>
 
     </LinearLayout>
 
